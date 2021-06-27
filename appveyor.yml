@@ -37,6 +37,6 @@ build_script:
   - dotnet build
   
 artifacts:
-  - path: InsanityBot.zip
+  - path: bin\Release
     name: Release
     type: zip
