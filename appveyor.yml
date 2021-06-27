@@ -35,3 +35,8 @@ build:
 build_script:
   - dotnet restore
   - dotnet build
+  
+artifacts:
+  - path: InsanityBot.zip
+    name: Release
+    type: zip
