@@ -25,9 +25,7 @@ dotnet_csproj:
 
 # Build
 
-platform:
-  - x64
-  - Any CPU
+platform: Any CPU
 
 configuration: Release
 
