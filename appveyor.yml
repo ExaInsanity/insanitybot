@@ -36,7 +36,10 @@ build_script:
   - dotnet restore
   - dotnet build
   
+after_build:
+  - 7z a InsanityBot.zip %APPVEYOR_BUILD_FOLDER%\InsanityBot\bin\Release\*
+  
 artifacts:
-  - path: bin\Release
+  - path: InsanityBot.zip
     name: Release
     type: zip
